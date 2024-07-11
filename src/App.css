@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Добавляет пространство между кнопками */
+  margin-top: 20px; /* Дополнительный отступ сверху */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
 }
